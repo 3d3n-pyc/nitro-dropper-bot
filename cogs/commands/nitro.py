@@ -119,7 +119,7 @@ class nitro(commands.Cog):
         interaction: discord.Interaction,
         error: app_commands.errors.AppCommandError
     ):
-        if isinstance(error, discord.errors, app_commands.MissingAnyRole):
+        if isinstance(error, app_commands.MissingAnyRole):
             embed = discord.Embed(description=f"## {messageConfig.get('noPermission')}", colour=int(data['colour']['error'], 16))
             await interaction.response.send_message(embed=embed, ephemeral=True)
         else:
@@ -176,7 +176,7 @@ class nitro(commands.Cog):
         interaction: discord.Interaction,
         error: app_commands.errors.AppCommandError
     ):
-        if isinstance(error, discord.errors, app_commands.MissingAnyRole):
+        if isinstance(error, app_commands.MissingAnyRole):
             embed = discord.Embed(description=f"## {messageConfig.get('noPermission')}", colour=int(data['colour']['error'], 16))
             await interaction.response.send_message(embed=embed, ephemeral=True)
         else:
@@ -220,7 +220,7 @@ class nitro(commands.Cog):
         interaction: discord.Interaction,
         error: app_commands.errors.AppCommandError
     ):
-        if isinstance(error, discord.errors, app_commands.MissingAnyRole):
+        if isinstance(error, app_commands.MissingAnyRole):
             embed = discord.Embed(description=f"## {messageConfig.get('noPermission')}", colour=int(data['colour']['error'], 16))
             await interaction.response.send_message(embed=embed, ephemeral=True)
         else:
