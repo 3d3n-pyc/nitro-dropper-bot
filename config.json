@@ -1,0 +1,39 @@
+{
+    "token": "MTE1NTEwODkxMzIwOTkzMzgzNA.G5sq53.bmTyI6FjtNon_pqMFQVZ8Qvio6OvebMPEoICdE",
+    "app_id": 1155108913209933834,
+    "version": "1.0.0",
+
+    "colour": {
+        "message": "2d2d31",
+        "embed": "2d2d31",
+        "error": "e74c3c"
+    },
+
+    "help": {
+        "ephemeral": {
+            "membre": "False",
+            "admin": "True"
+        },
+        "roles": {
+            "admins": [1155119217021030450]
+        }
+    },
+
+    "nitro": {
+        
+        "stock": {
+            "file": {
+                "classic": "data/nitroCL.txt",
+                "boost": "data/nitroBT.txt"
+            },
+            "timeout": "None"
+        },
+        
+        "drop": {
+            "type": {
+                "classic": "classic",
+                "boost": "boost"
+            }
+        }
+    }
+}

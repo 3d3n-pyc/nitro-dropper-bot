@@ -1,0 +1,23 @@
+{
+    "noPermission": "Vous n'avez pas la permission d'exécuter cette commande.",
+    "nitro": {
+        "stock": "`⭐` \u200b Notre stock",
+        "classic": "ᶜˡᵃˢˢⁱᶜ",
+        "boost": "ᵇᵒᵒˢᵗ",
+        "timeout": "Veuillez refaire la commande",
+        
+        "noNitro": "Il n'y a plus de nitro dans le stock. `😭`",
+        "drop": {
+            "response": "Le nitro a bien été envoyé dans le salon [channel].",
+            "message": "## NOUVEAU DROP\n\u200b\n### Lien: [nitro]\n### Type: `[type]`"
+        },
+        "give": {
+            "response": "Le nitro a bien été envoyé à [user].",
+            "message": "## Un cadeau est arrivé !\n\u200b\n### Lien: [nitro]\n### Type: `[type]`"
+        },
+        "add": {
+            "response": "Le nitro a bien été ajouté.",
+            "invalid": "Le lien de nitro n'est pas valide."
+        }
+    }
+}
