@@ -1,5 +1,5 @@
 # Nitro Dropper Bot pour Discord
-
+[![wakatime](https://wakatime.com/badge/user/e16f8dc4-b56f-49c4-8545-e57b81a03503/project/018af678-918d-4a09-b7e6-8b0555c2740c.svg)](https://wakatime.com/badge/user/e16f8dc4-b56f-49c4-8545-e57b81a03503/project/018af678-918d-4a09-b7e6-8b0555c2740c)
 Ce bot vous permet de gérer les Nitros sur votre serveur Discord. Vous pouvez consulter le stock de Nitros, distribuer des Nitros dans un salon, et donner des Nitros à un utilisateur.
 
 ## Fonctionnalités
